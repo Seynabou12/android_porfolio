@@ -167,32 +167,131 @@
                 <View
                     android:id="@+id/barr"
                     android:layout_width="8dp"
-                    android:layout_height="150dp"
+                    android:layout_height="260dp"
                     android:layout_marginLeft="10dp"
                     android:background="@color/white"></View>
 
-                <View
-                    android:layout_width="55dp"
-                    android:layout_height="5dp"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="15dp"
-                    android:background="@color/white"></View>
-
-                <TextView
-                    android:id="@+id/card"
+                <LinearLayout
+                    android:id="@+id/formation_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="70dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="20dp"
-                    android:layout_marginBottom="20dp"
-                    android:layout_toRighttOf="@id/barr"
-                    android:background="@drawable/cadrerouge"
-                    android:text="PCSM science de la matiére
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="10dp"
+
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="40dp"
+                        android:backgroundTint="@color/red"
+                        app:cardCornerRadius="5dp"></androidx.cardview.widget.CardView>
+
+
+                    <View
+
+                        android:layout_width="55dp"
+                        android:layout_height="5dp"
+
+                        android:layout_marginTop="40dp"
+                        android:background="@color/white"></View>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/cadrerouge"
+                        android:text="PCSM science de la matiére
                  Université de Dakar (2017 - 2020)"
-                    android:textAlignment="center"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"></TextView>
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/formation_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/formation_1"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="10dp"
+
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="40dp"
+                        android:backgroundTint="@color/red"
+                        app:cardCornerRadius="5dp"></androidx.cardview.widget.CardView>
+
+
+                    <View
+
+                        android:layout_width="55dp"
+                        android:layout_height="5dp"
+
+                        android:layout_marginTop="40dp"
+                        android:background="@color/white"></View>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/cadrerouge"
+                        android:text="PCSM science de la matiére
+                 Université de Dakar (2017 - 2020)"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"></TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/formation_3"
+                    android:layout_below="@id/formation_2">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginTop="40dp"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:backgroundTint="@color/red"
+                        app:cardCornerRadius="5dp"></androidx.cardview.widget.CardView>
+
+
+                    <View
+
+                        android:layout_width="55dp"
+                        android:layout_height="5dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@color/white"></View>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+
+                        android:background="@drawable/cadrerouge"
+                        android:text="PCSM science de la matiére
+                 Université de Dakar (2017 - 2020)"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"></TextView>
+
+                </LinearLayout>
+
             </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
