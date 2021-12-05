@@ -764,7 +764,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
+                        android:layout_marginLeft="85dp"
                         android:padding="15dp"
                         android:text="Travail en équipe"
 
@@ -799,7 +799,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
+                        android:layout_marginLeft="90dp"
                         android:padding="15dp"
                         android:text="Savoir s’adapter"
 
@@ -834,7 +834,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
+                        android:layout_marginLeft="100dp"
                         android:padding="15dp"
                         android:text="L’autonomie"
 
@@ -903,7 +903,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
+                        android:layout_marginLeft="90dp"
                         android:padding="15dp"
                         android:text="Gestion de projet"
 
@@ -938,7 +938,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="100dp"
+                        android:layout_marginLeft="110dp"
                         android:padding="15dp"
                         android:text="Organiser"
 
@@ -954,7 +954,6 @@
 
                 </androidx.cardview.widget.CardView>
             </RelativeLayout>
-
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -990,14 +989,15 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:padding="30dp"
+                        android:padding="20dp"
                         android:src="@drawable/campus" />
+
                     <Button
-                        android:id="@+id/butto"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="120dp"
-                        android:layout_marginTop="260dp"
+                        android:layout_marginTop="250dp"
                         android:backgroundTint="@color/red"
                         android:text="2020-2021"
                         app:cardCornerRadius="40dp" />
@@ -1045,14 +1045,15 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:padding="30dp"
+                        android:padding="20dp"
+                        android:layout_marginTop="-180dp"
                         android:src="@drawable/p" />
-
                     <Button
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="120dp"
-                        android:layout_marginTop="260dp"
+                        android:layout_marginTop="250dp"
                         android:backgroundTint="@color/red"
                         android:text="2020-2021"
                         app:cardCornerRadius="40dp" />
@@ -1101,13 +1102,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="30dp"
-                        android:src="@drawable/x" />
-
+                        android:layout_marginTop="-200dp"
+                        android:src="@drawable/x"
+                        app:cardCornerRadius="20dp"/>
                     <Button
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="120dp"
-                        android:layout_marginTop="260dp"
+                        android:layout_marginTop="250dp"
                         android:backgroundTint="@color/red"
                         android:text="2020-2021"
                         app:cardCornerRadius="40dp" />
@@ -1140,6 +1143,60 @@
                 </androidx.cardview.widget.CardView>
             </RelativeLayout>
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REFERENCES"
+                android:textColor="@color/black"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="20dp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:src="@drawable/ref"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="200dp"
+                        android:padding="20dp"
+                        android:text="Jacques Etienne Ndiaye \n
+                        \n
+
+PDG d’une Yombal Tech \n
+\n
+Je suis disponible pour un travail indépendant. Connectez-vous avec moi via et appelez sur mon compte.\n
+
+Phone:  +221781794521 \n
+\n
+Email: jeaquesetiennendiaye@gmail.com \n
+\n
+TROUVEZ  MOI"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
 
