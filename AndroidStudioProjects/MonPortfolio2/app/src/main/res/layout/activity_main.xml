@@ -407,19 +407,20 @@
                     android:textSize="20dp"></TextView>
 
             </LinearLayout>
+
             <LinearLayout
+                android:id="@+id/diplome_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:id="@+id/diplome_3"
-                android:layout_below="@id/diplome_2">
+                android:layout_below="@id/diplome_2"
+                android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
-                    android:layout_marginLeft="10dp"
-
-                    android:layout_marginTop="40dp"
                     android:layout_width="10dp"
+
                     android:layout_height="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
                     android:backgroundTint="@color/red"
                     app:cardCornerRadius="5dp"></androidx.cardview.widget.CardView>
 
@@ -955,8 +956,191 @@
             </RelativeLayout>
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/experience"
+                android:textColor="@color/black"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="20dp"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                android:layout_marginLeft="180dp"/>
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="40dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="30dp"
+                        android:src="@drawable/campus" />
+                    <Button
+                        android:id="@+id/butto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="260dp"
+                        android:backgroundTint="@color/red"
+                        android:text="2020-2021"
+                        app:cardCornerRadius="40dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="320dp"
+                        android:text="APP CAMPUS RESTO"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="340dp"
+                        android:padding="20dp"
+                        android:text="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="410dp"
+                        android:backgroundTint="@color/red"
+                        android:text="Contactez moi"
+                        app:cardCornerRadius="40dp" />
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="40dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="30dp"
+                        android:src="@drawable/p" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="260dp"
+                        android:backgroundTint="@color/red"
+                        android:text="2020-2021"
+                        app:cardCornerRadius="40dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="320dp"
+                        android:text="APP WEBSITE SIMPLON"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="340dp"
+                        android:padding="20dp"
+                        android:text="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="410dp"
+                        android:backgroundTint="@color/red"
+                        android:text="Contactez moi"
+                        app:cardCornerRadius="40dp" />
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="40dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="30dp"
+                        android:src="@drawable/x" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="260dp"
+                        android:backgroundTint="@color/red"
+                        android:text="2020-2021"
+                        app:cardCornerRadius="40dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="320dp"
+                        android:text="APP DEVELOPPER"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="340dp"
+                        android:padding="20dp"
+                        android:text="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="410dp"
+                        android:backgroundTint="@color/red"
+                        android:text="Contactez moi"
+                        app:cardCornerRadius="40dp" />
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+        </LinearLayout>
     </LinearLayout>
 
     </ScrollView>
