@@ -43,6 +43,12 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_menu_24"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -1197,6 +1203,98 @@ TROUVEZ  MOI"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="40dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:textColor="@color/black"
+                        android:text="Nom et Prenom"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="130dp"
+                        android:text="Téléphone"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="20dp"
+                        android:inputType="text"
+                        android:background="@drawable/cardgray"/>
+                    <EditText
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                       android:layout_marginTop="40dp"
+                        android:layout_marginLeft="30dp"
+                        android:inputType="text"
+                        android:background="@drawable/cardgray"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="80dp"/>
+                    <EditText
+                        android:layout_width="360dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:inputType="text"
+                        android:background="@color/gray"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="140dp"
+                        android:text="Message"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <EditText
+                        android:layout_width="360dp"
+                        android:layout_height="150dp"
+                        android:background="@color/gray"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="170dp"
+                        android:inputType="textImeMultiLine"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
     </LinearLayout>
 

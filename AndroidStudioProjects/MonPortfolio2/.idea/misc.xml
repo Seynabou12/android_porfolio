@@ -5,7 +5,9 @@
       <map>
         <entry key="app/src/main/res/drawable/cadreblanc.xml" value="0.2140625" />
         <entry key="app/src/main/res/drawable/cadrerouge.xml" value="0.2140625" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="app/src/main/res/drawable/cardgray.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.371875" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
   </component>
