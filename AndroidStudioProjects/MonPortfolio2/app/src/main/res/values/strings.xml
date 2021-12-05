@@ -6,5 +6,8 @@
     <string name="name"><b>SEYNABOU DIONE</b></string>
     <string name="formations"><b>FORMATIONS</b></string>
     <string name="diplomes"><b>DIPLOMES</b></string>
+    <string name="competence"><b>COMPETENCES</b></string>
+    <string name="skills"><b>Design Skill</b></string>
+    <string name="skill"><b>Development Skills</b></string>
     <string name="biblio"><b>Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisee à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu\'il est prêt ou que la mise en page est achevee. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum.</b></string>
 </resources>

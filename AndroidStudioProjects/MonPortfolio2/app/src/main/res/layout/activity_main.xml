@@ -56,11 +56,12 @@
            android:layout_height="wrap_content"
            android:backgroundTint="@color/white"
            app:cardCornerRadius="20dp">
+
            <ImageView
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:src="@drawable/ima"
-               android:padding="45dp"/>
+               android:padding="45dp"
+               android:src="@drawable/ima" />
        </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -191,7 +192,6 @@
 
                         android:layout_width="55dp"
                         android:layout_height="5dp"
-
                         android:layout_marginTop="40dp"
                         android:background="@color/white"></View>
 
@@ -243,27 +243,28 @@
                         android:layout_marginTop="20dp"
                         android:layout_marginEnd="20dp"
                         android:layout_marginBottom="20dp"
-                        android:background="@drawable/cadrerouge"
+                        android:background="@drawable/cadreblanc"
                         android:text="PCSM science de la matiére
                  Université de Dakar (2017 - 2020)"
                         android:textAlignment="center"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:textSize="20dp"></TextView>
 
                 </LinearLayout>
+
                 <LinearLayout
+                    android:id="@+id/formation_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:id="@+id/formation_3"
-                    android:layout_below="@id/formation_2">
+                    android:layout_below="@id/formation_2"
+                    android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
-                        android:layout_marginLeft="10dp"
-
-                        android:layout_marginTop="40dp"
                         android:layout_width="10dp"
+
                         android:layout_height="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="40dp"
                         android:backgroundTint="@color/red"
                         app:cardCornerRadius="5dp"></androidx.cardview.widget.CardView>
 
@@ -283,11 +284,11 @@
                         android:layout_marginEnd="20dp"
                         android:layout_marginBottom="20dp"
 
-                        android:background="@drawable/cadrerouge"
+                        android:background="@drawable/cadreblanc"
                         android:text="PCSM science de la matiére
                  Université de Dakar (2017 - 2020)"
                         android:textAlignment="center"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:textSize="20dp"></TextView>
 
                 </LinearLayout>
@@ -398,11 +399,11 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/cadrerouge"
+                    android:background="@drawable/cadreblanc"
                     android:text="PCSM science de la matiére
                  Université de Dakar (2017 - 2020)"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="20dp"></TextView>
 
             </LinearLayout>
@@ -438,11 +439,11 @@
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
 
-                    android:background="@drawable/cadrerouge"
+                    android:background="@drawable/cadreblanc"
                     android:text="PCSM science de la matiére
                  Université de Dakar (2017 - 2020)"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="20dp"></TextView>
 
             </LinearLayout>
@@ -450,6 +451,287 @@
 
     </LinearLayout>
 
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/competence"
+               android:textSize="25dp"
+               android:textColor="@color/black"
+               android:layout_marginLeft="130dp"
+               android:layout_marginTop="20dp"/>
+           <ProgressBar
+
+               style="?android:attr/progressBarStyleHorizontal"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@color/red"
+               android:layout_marginLeft="180dp"/>
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <androidx.cardview.widget.CardView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:backgroundTint="@color/white">
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/skills"
+                      android:textSize="20dp"
+                      android:layout_marginTop="25dp"
+                      android:layout_marginLeft="140dp"
+                      />
+                  <ProgressBar
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:progress="85"
+                      android:padding="10dp"
+                      android:layout_marginTop="80dp"
+                      android:progressTint="@color/red"
+                      style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="70dp"
+                          android:layout_marginLeft="20dp"
+                          android:text="FIGMA"/>
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="70dp"
+                          android:layout_marginLeft="300dp"
+                          android:text="80%"/>
+                  </LinearLayout>
+
+                  <ProgressBar
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:progress="80"
+                      android:padding="10dp"
+                      android:layout_marginTop="130dp"
+                      android:progressTint="@color/red"
+                      style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="120dp"
+                          android:layout_marginLeft="20dp"
+                          android:text="ADOBE XD"/>
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="120dp"
+                          android:layout_marginLeft="280dp"
+                          android:text="80%"/>
+                  </LinearLayout>
+                  <ProgressBar
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:progress="60"
+                      android:padding="10dp"
+                      android:layout_marginTop="235dp"
+                      android:progressTint="@color/red"
+                      style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="220dp"
+                      android:layout_marginLeft="10dp"
+                      android:text="ILLUSTRATOR"/>
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="220dp"
+                      android:layout_marginLeft="280dp"
+                      android:text="60%"/>
+                  </LinearLayout>
+                  <ProgressBar
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:progress="60"
+                      android:padding="10dp"
+                      android:layout_marginTop="180dp"
+                      android:progressTint="@color/red"
+                      style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="170dp"
+                          android:layout_marginLeft="20dp"
+                          android:text="DESIGN"/>
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="170dp"
+                          android:layout_marginLeft="300dp"
+                          android:text="60%"/>
+                  </LinearLayout>
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/skill"
+                      android:textSize="20dp"
+                      android:layout_marginTop="300dp"
+                      android:layout_marginLeft="140dp"
+                      />
+
+                  <ProgressBar
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:progress="90"
+                      android:padding="10dp"
+                      android:layout_marginTop="350dp"
+                      android:progressTint="@color/red"
+                      style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="340dp"
+                          android:layout_marginLeft="20dp"
+                          android:text="HTML"/>
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="340dp"
+                          android:layout_marginLeft="300dp"
+                          android:text="90%"/>
+                  </LinearLayout>
+                  <ProgressBar
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:progress="80"
+                      android:padding="10dp"
+                      android:layout_marginTop="400dp"
+                      android:progressTint="@color/red"
+                      style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="390dp"
+                          android:layout_marginLeft="20dp"
+                          android:text="CSS"/>
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="390dp"
+                          android:layout_marginLeft="300dp"
+                          android:text="80%"/>
+                  </LinearLayout>
+                  <ProgressBar
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:progress="80"
+                      android:padding="10dp"
+                      android:layout_marginTop="400dp"
+                      android:progressTint="@color/red"
+                      style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="390dp"
+                          android:layout_marginLeft="20dp"
+                          android:text="CSS"/>
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="390dp"
+                          android:layout_marginLeft="300dp"
+                          android:text="80%"/>
+                  </LinearLayout>
+
+                  <ProgressBar
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:progress="60"
+                      android:padding="10dp"
+                      android:layout_marginTop="450dp"
+                      android:progressTint="@color/red"
+                      style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="440dp"
+                          android:layout_marginLeft="20dp"
+                          android:text="PHP"/>
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="440dp"
+                          android:layout_marginLeft="300dp"
+                          android:text="60%"/>
+                  </LinearLayout>
+
+                  <ProgressBar
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:progress="60"
+                      android:padding="10dp"
+                      android:layout_marginTop="500dp"
+                      android:progressTint="@color/red"
+                      style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="490dp"
+                          android:layout_marginLeft="20dp"
+                          android:text="JAVASCRIPT"/>
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="490dp"
+                          android:layout_marginLeft="270dp"
+                          android:text="60%"/>
+                  </LinearLayout>
+              </androidx.cardview.widget.CardView>
+          </RelativeLayout>
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
     </LinearLayout>
 
     </ScrollView>
