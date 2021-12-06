@@ -85,6 +85,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -100,7 +101,6 @@
                     android:textColor="@color/red"
                     android:layout_marginTop="80dp"
                     android:layout_marginLeft="10dp"/>
-
             </LinearLayout>
 
             <TextView
@@ -159,13 +159,6 @@
                 android:textColor="@color/black"
                 android:layout_marginLeft="130dp"
                 android:layout_marginTop="20dp"/>
-            <ProgressBar
-                android:id="@+id/progressBar"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:layout_marginLeft="180dp"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -214,7 +207,6 @@
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="20dp"></TextView>
-
                 </LinearLayout>
 
                 <LinearLayout
@@ -233,7 +225,6 @@
                         android:backgroundTint="@color/red"
                         app:cardCornerRadius="5dp"></androidx.cardview.widget.CardView>
 
-
                     <View
 
                         android:layout_width="55dp"
@@ -251,11 +242,10 @@
                         android:layout_marginBottom="20dp"
                         android:background="@drawable/cadreblanc"
                         android:text="PCSM science de la matiére
-                 Université de Dakar (2017 - 2020)"
+                       Université de Dakar (2017 - 2020)"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="20dp"></TextView>
-
                 </LinearLayout>
 
                 <LinearLayout
@@ -273,7 +263,6 @@
                         android:layout_marginTop="40dp"
                         android:backgroundTint="@color/red"
                         app:cardCornerRadius="5dp"></androidx.cardview.widget.CardView>
-
 
                     <View
 
@@ -313,26 +302,16 @@
             android:textColor="@color/black"
             android:layout_marginLeft="130dp"
             android:layout_marginTop="20dp"/>
-        <ProgressBar
-
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/red"
-            android:layout_marginLeft="180dp"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <View
                 android:id="@+id/barr1"
                 android:layout_width="8dp"
                 android:layout_height="260dp"
                 android:layout_marginLeft="10dp"
                 android:background="@color/white"></View>
-
-
             <LinearLayout
                 android:id="@+id/diplome_1"
                 android:layout_width="wrap_content"
@@ -470,13 +449,7 @@
                android:textColor="@color/black"
                android:layout_marginLeft="130dp"
                android:layout_marginTop="20dp"/>
-           <ProgressBar
 
-               style="?android:attr/progressBarStyleHorizontal"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:background="@color/red"
-               android:layout_marginLeft="180dp"/>
           <RelativeLayout
               android:layout_width="match_parent"
               android:layout_height="wrap_content">
@@ -741,17 +714,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="QUALITES PERSONNELLES"
+                android:text="@string/qualites"
+                android:textSize="20dp"
                 android:textColor="@color/black"
                 android:layout_marginLeft="130dp"
                 android:layout_marginTop="20dp"/>
-            <ProgressBar
 
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:layout_marginLeft="180dp"/>
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -973,12 +941,6 @@
                 android:textColor="@color/black"
                 android:layout_marginLeft="130dp"
                 android:layout_marginTop="20dp"/>
-            <ProgressBar
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:layout_marginLeft="180dp"/>
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -1159,6 +1121,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="REFERENCES"
+                android:textSize="25dp"
                 android:textColor="@color/black"
                 android:layout_marginLeft="140dp"
                 android:layout_marginTop="20dp"/>
